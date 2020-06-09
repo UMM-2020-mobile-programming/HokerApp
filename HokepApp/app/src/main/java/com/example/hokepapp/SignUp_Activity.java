@@ -22,11 +22,11 @@ public class SignUp_Activity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
         if (view.getId()==R.id.Masuk){
-            Intent pindahLogin = new Intent(SignUp_Activity.this, CariRumahSakit.class);
+            Intent pindahLogin = new Intent(SignUp_Activity.this, permission_access_activity.class);
             startActivity(pindahLogin);
         }
         if(view.getId()==R.id.daftar){
-            Intent masukMaps = new Intent(SignUp_Activity.this,CariRumahSakit.class);
+            Intent masukMaps = new Intent(SignUp_Activity.this,permission_access_activity.class);
             startActivity(masukMaps);
         }
     }
